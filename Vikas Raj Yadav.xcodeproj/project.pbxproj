@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		498B3AB62C7254D500FF6C1E /* interaction.riv in Resources */ = {isa = PBXBuildFile; fileRef = 498B3AB52C7254D500FF6C1E /* interaction.riv */; };
 		72D6F7142C63701E00ED5B00 /* Vikas_Raj_YadavApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D6F7132C63701E00ED5B00 /* Vikas_Raj_YadavApp.swift */; };
 		72D6F7162C63701E00ED5B00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D6F7152C63701E00ED5B00 /* ContentView.swift */; };
 		72D6F7182C63702000ED5B00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D6F7172C63702000ED5B00 /* Assets.xcassets */; };
@@ -14,6 +15,11 @@
 		72D6F7252C63702100ED5B00 /* Vikas_Raj_YadavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D6F7242C63702100ED5B00 /* Vikas_Raj_YadavTests.swift */; };
 		72D6F72F2C63702100ED5B00 /* Vikas_Raj_YadavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D6F72E2C63702100ED5B00 /* Vikas_Raj_YadavUITests.swift */; };
 		72D6F7312C63702100ED5B00 /* Vikas_Raj_YadavUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D6F7302C63702100ED5B00 /* Vikas_Raj_YadavUITestsLaunchTests.swift */; };
+		72D6F7412C63794B00ED5B00 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D6F7402C63794B00ED5B00 /* HomeView.swift */; };
+		72D6F7432C63798A00ED5B00 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D6F7422C63798A00ED5B00 /* ProjectView.swift */; };
+		72D6F7452C6379AB00ED5B00 /* Playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D6F7442C6379AB00ED5B00 /* Playground.swift */; };
+		72D6F7472C6379BC00ED5B00 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D6F7462C6379BC00ED5B00 /* NotesView.swift */; };
+		72D6F74E2C6382F100ED5B00 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 72D6F74D2C6382F100ED5B00 /* RiveRuntime */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		498B3AB52C7254D500FF6C1E /* interaction.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = interaction.riv; sourceTree = "<group>"; };
 		72D6F7102C63701E00ED5B00 /* Vikas Raj Yadav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vikas Raj Yadav.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D6F7132C63701E00ED5B00 /* Vikas_Raj_YadavApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vikas_Raj_YadavApp.swift; sourceTree = "<group>"; };
 		72D6F7152C63701E00ED5B00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,10 @@
 		72D6F72A2C63702100ED5B00 /* Vikas Raj YadavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vikas Raj YadavUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D6F72E2C63702100ED5B00 /* Vikas_Raj_YadavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vikas_Raj_YadavUITests.swift; sourceTree = "<group>"; };
 		72D6F7302C63702100ED5B00 /* Vikas_Raj_YadavUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vikas_Raj_YadavUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		72D6F7402C63794B00ED5B00 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		72D6F7422C63798A00ED5B00 /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
+		72D6F7442C6379AB00ED5B00 /* Playground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground.swift; sourceTree = "<group>"; };
+		72D6F7462C6379BC00ED5B00 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D6F74E2C6382F100ED5B00 /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +106,14 @@
 		72D6F7122C63701E00ED5B00 /* Vikas Raj Yadav */ = {
 			isa = PBXGroup;
 			children = (
+				72D6F7522C63883E00ED5B00 /* icons */,
+				72D6F74F2C63836700ED5B00 /* rive */,
+				72D6F74B2C637FF100ED5B00 /* spacers */,
+				72D6F7492C637FDA00ED5B00 /* type system */,
+				72D6F7482C637FC700ED5B00 /* color system */,
 				72D6F7132C63701E00ED5B00 /* Vikas_Raj_YadavApp.swift */,
 				72D6F7152C63701E00ED5B00 /* ContentView.swift */,
+				72D6F73D2C63792900ED5B00 /* views */,
 				72D6F7172C63702000ED5B00 /* Assets.xcassets */,
 				72D6F7192C63702000ED5B00 /* Preview Content */,
 			);
@@ -127,6 +145,53 @@
 			path = "Vikas Raj YadavUITests";
 			sourceTree = "<group>";
 		};
+		72D6F73D2C63792900ED5B00 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				72D6F7402C63794B00ED5B00 /* HomeView.swift */,
+				72D6F7422C63798A00ED5B00 /* ProjectView.swift */,
+				72D6F7442C6379AB00ED5B00 /* Playground.swift */,
+				72D6F7462C6379BC00ED5B00 /* NotesView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		72D6F7482C637FC700ED5B00 /* color system */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "color system";
+			sourceTree = "<group>";
+		};
+		72D6F7492C637FDA00ED5B00 /* type system */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "type system";
+			sourceTree = "<group>";
+		};
+		72D6F74B2C637FF100ED5B00 /* spacers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = spacers;
+			sourceTree = "<group>";
+		};
+		72D6F74F2C63836700ED5B00 /* rive */ = {
+			isa = PBXGroup;
+			children = (
+				498B3AB52C7254D500FF6C1E /* interaction.riv */,
+			);
+			path = rive;
+			sourceTree = "<group>";
+		};
+		72D6F7522C63883E00ED5B00 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +208,9 @@
 			dependencies = (
 			);
 			name = "Vikas Raj Yadav";
+			packageProductDependencies = (
+				72D6F74D2C6382F100ED5B00 /* RiveRuntime */,
+			);
 			productName = "Vikas Raj Yadav";
 			productReference = 72D6F7102C63701E00ED5B00 /* Vikas Raj Yadav.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +283,9 @@
 				Base,
 			);
 			mainGroup = 72D6F7072C63701E00ED5B00;
+			packageReferences = (
+				72D6F74C2C6382F100ED5B00 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			productRefGroup = 72D6F7112C63701E00ED5B00 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72D6F71B2C63702000ED5B00 /* Preview Assets.xcassets in Resources */,
+				498B3AB62C7254D500FF6C1E /* interaction.riv in Resources */,
 				72D6F7182C63702000ED5B00 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +329,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D6F7412C63794B00ED5B00 /* HomeView.swift in Sources */,
+				72D6F7452C6379AB00ED5B00 /* Playground.swift in Sources */,
+				72D6F7472C6379BC00ED5B00 /* NotesView.swift in Sources */,
 				72D6F7162C63701E00ED5B00 /* ContentView.swift in Sources */,
+				72D6F7432C63798A00ED5B00 /* ProjectView.swift in Sources */,
 				72D6F7142C63701E00ED5B00 /* Vikas_Raj_YadavApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,6 +660,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		72D6F74C2C6382F100ED5B00 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		72D6F74D2C6382F100ED5B00 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72D6F74C2C6382F100ED5B00 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 72D6F7082C63701E00ED5B00 /* Project object */;
 }
